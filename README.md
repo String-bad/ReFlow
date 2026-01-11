@@ -1,11 +1,11 @@
-# AD演化预测 - JiT扩散模型
+# AD演化预测 - Residual Flow Matching for Longitudinal Brain MRI Generation
 
-基于JiT (Jacobian-informed Trajectory) 扩散模型预测阿尔茨海默病患者的未来MRI。
+基于Residual Flow Matching的预测阿尔茨海默病患者的未来MRI。
 
 ## 核心思想
 
 ```
-JiT数学框架:
+数学框架:
 ├── Flow:     z_t = t * x + (1-t) * ε,  ε ~ N(0,1)
 ├── 预测:     x̂ = model(z_t, t, condition)  
 ├── 损失:     v-loss = ||v_pred - v_target||²
