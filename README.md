@@ -1,6 +1,6 @@
 # EvoFlow: Evolution-guided Flow Matching for Longitudinal Brain MRI Generation
 
-Official PyTorch implementation of **"Learning What Changes: Residual Flow Matching for Longitudinal Brain MRI Generation"**.
+Official PyTorch implementation of **"Learning What Changes: Longitudinal Brain 3D MRI Generation Guided by Historical Lesions Evolution"**.
 
 ## 🔑 Key Features
 
